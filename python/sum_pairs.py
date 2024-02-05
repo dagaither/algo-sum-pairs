@@ -7,8 +7,11 @@ def sum_pairs(arr, num):
             if arr[i] + arr[j] == num:
                 pairs.append([arr[i], arr[j]])
     
-    if pairs == []:
+    if not pairs:
         return "unable to find pairs"
     
     else:
         return pairs
+    
+
+print(sum_pairs([2, 4, 6, 8], 14))
