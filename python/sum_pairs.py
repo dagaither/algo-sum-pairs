@@ -12,6 +12,3 @@ def sum_pairs(arr, num):
     
     else:
         return pairs
-    
-
-print(sum_pairs([2, 4, 6, 8], 14))
